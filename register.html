@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninjas - Register</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <img src="../Multimedia/new_cn_logo.svg" 
+            alt="cn logo"/></a>  
+    </header>
+    <main>
+        <section>
+        <h2>Create an Account</h2>
+
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <br/>
+                <label for="fullname">Full Name:</label>
+                <input type="text" name="fullname" id="fullname"/>
+                <br/><br/>
+                <label for="mailid">Email:</label>
+                <input type="email" name="mailid" id="mailid"/>
+                <br/><br/>
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username"/>
+                <br/><br/>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass"/>
+                <br/><br/>
+                <label for="usertype">User Type:</label>
+                <select id="usertype" name="usertype">
+                    <option value="stu">Student</option>
+                    <option value="prof">Professional</option>
+                </select>
+                <br/><br/>
+                <label for="coursetype">Select Course:</label>
+                <select id="coursetype" name="coursetype">
+                    <option value="c1" selected >Course 1 - Web Development</option>
+                    <option value="c2">Course 2 - Data Science Fundamentals</option>
+                    <option value="c3">Course 3 - Digital Marketing Mastery</option>
+                    <option value="c4">Course 4 - Android Development</option>
+                </select>
+                <br/><br/>
+                <button type="submit">Register</button>
+            </fieldset>
+        </form>
+        </section>
+    </main>
+</body>
+</html>
